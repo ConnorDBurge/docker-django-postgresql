@@ -60,6 +60,17 @@ services:
 volumes:
   postgresdata:
 ```
+The file structure should look like this:
+```bash
+|--postgresdata
+|--<project-name>
+|--.gitignore
+|--docker-compose.yml
+|--Dockefile
+|--manage.py
+|--README.md
+|--requirements.txt
+```
 
 # Run
 ```bash
