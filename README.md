@@ -76,3 +76,17 @@ The file structure should look like this:
 ```bash
 docker-compose up -d
 ```
+
+# Executing commands
+Entering the CLI
+```bash
+$ docker exec -it <container-id> /bin/sh
+
+$ /usr/src/app # python manage.py migrate
+
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+/usr/src/app # 
+```
